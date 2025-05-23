@@ -38,3 +38,4 @@ jobs:
           pwd
           ls -ali
           env | grep GITHUB
+          echo "${{secrets.MY_SECRET_TOKEN}}"
